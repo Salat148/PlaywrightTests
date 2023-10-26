@@ -12,11 +12,9 @@ RUN git clone https://github.com/Salat148/PlaywrightTests .
 
 # Replace values in the .env file
 ARG URL
-ARG EMAIL
 ARG PASSW
 ARG USERNAME
 RUN sed -i "s#URL=.*#URL=$URL#g" .env
-RUN sed -i "s#EMAIL=.*#EMAIL=$EMAIL#g" .env
 RUN sed -i "s#PASSW=.*#PASSW=$PASSW#g" .env
 RUN sed -i "s#USERNAME=.*#USERNAME=$USERNAME#g" .env
 

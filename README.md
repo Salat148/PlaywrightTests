@@ -1,4 +1,6 @@
 # PlaywrightTests
+# Login to wiki and change language
+
 
 1. Clone repo 
 2. Land inside project

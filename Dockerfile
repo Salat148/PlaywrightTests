@@ -24,4 +24,4 @@ RUN sed -i "s#USERNAME=.*#USERNAME=$USERNAME#g" .env
 RUN npm install
 
 # Run your Playwright tests and generate a report
-CMD ["npx", "playwright", "test"]
+CMD ["npx", "playwright", "test", "--reporter=html"]

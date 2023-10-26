@@ -1,4 +1,3 @@
-# PlaywrightTests
 # Login to wiki and change language
 
 
